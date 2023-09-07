@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,700&family=Inter:wght@300&family=Itim&family=Merriweather:ital,wght@0,300;1,300&family=Montserrat:wght@300&family=Poppins:wght@300&family=Sacramento&display=swap"
+        rel="stylesheet" />
+        <script src="script.js" defer></script>
+</head>
+
+<body>
+    <svg class="svg1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#0E8BE4"
+            d="M46.1,-64.5C60.7,-62.3,74.1,-51.2,80.5,-36.8C86.9,-22.5,86.2,-5.1,80.9,9.5C75.5,24.2,65.4,36.1,54.3,44.7C43.2,53.3,31,58.6,18.5,61.6C6.1,64.6,-6.7,65.3,-20.9,64.3C-35.2,63.3,-51,60.6,-59.5,51.3C-68.1,42,-69.4,26.1,-66.3,12.8C-63.2,-0.5,-55.6,-11.2,-50.1,-22.7C-44.5,-34.1,-41,-46.3,-33,-51.4C-25,-56.5,-12.5,-54.6,1.6,-57.1C15.8,-59.7,31.5,-66.6,46.1,-64.5Z"
+            transform="translate(100 100)" />
+    </svg>
+    <svg class="svg2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#0E8BE4"
+            d="M46.1,-64.5C60.7,-62.3,74.1,-51.2,80.5,-36.8C86.9,-22.5,86.2,-5.1,80.9,9.5C75.5,24.2,65.4,36.1,54.3,44.7C43.2,53.3,31,58.6,18.5,61.6C6.1,64.6,-6.7,65.3,-20.9,64.3C-35.2,63.3,-51,60.6,-59.5,51.3C-68.1,42,-69.4,26.1,-66.3,12.8C-63.2,-0.5,-55.6,-11.2,-50.1,-22.7C-44.5,-34.1,-41,-46.3,-33,-51.4C-25,-56.5,-12.5,-54.6,1.6,-57.1C15.8,-59.7,31.5,-66.6,46.1,-64.5Z"
+            transform="translate(100 100)" />
+    </svg>
+    <div class="h1">
+        <h1 class="title">WEB CALCULATOR</h1>
+    </div>
+    <div class="body">
+        <div class="result-box">
+            <p id="result-p"></p>
+            <input type="text" name="display" id="result">
+        </div>
+        <div class="input-box">
+            <div class="row1">
+                <input type="button" onclick="clearScreen()"class="button button3" value="AC">
+                <input type="button" onclick="del() "   class="button button2" value="←">
+                <input type="button" onclick="percentage()" class="button button4" value="%">
+                <input type="button" onclick="display('/')" class="button button4" value="/">
+            </div>
+            <div class="row2">
+                <input type="button" onclick="display('7')" class="button button5" value="7">
+                <input type="button" onclick="display('8')" class="button button6" value="8">
+                <input type="button" onclick="display('9')" class="button button7" value="9">
+                <input type="button" onclick="display('*')" class="button button8" value="*">       
+            </div>
+            <div class="row3">
+                <input type="button" onclick="display('4')" class="button button9"  value="4">
+                <input type="button" onclick="display('5')" class="button button10" value="5">
+                <input type="button" onclick="display('6')" class="button button11" value="6">
+                <input type="button" onclick="display('-')" class="button button12" value="-">
+            </div>
+            <div class="row4">
+                <input type="button" onclick="display('1')" class="button button13" value="1">
+                <input type="button" onclick="display('2')" class="button button14" value="2">
+                <input type="button" onclick="display('3')" class="button button15" value="3">
+                <input type="button" onclick="display('+')" class="button button19" value="+">
+            </div>
+            <div class="row5"> 
+                <input type="button" onclick="display('00')"class="button button17" value="00">
+                <input type="button" onclick="display('0')" class="button button17" value="0">
+                <input type="button" onclick="display('.')" class="button button18" value=".">
+                <input type="button" onclick="solve()"      class="button button16" value="=">
+                
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="links">
+          <a href="https://www.facebook.com/frabbi6272" target="_blank"
+            ><img src="002-facebook.png" width="30" height="30"
+          /></a>
+          <a href="https://www.instagram.com/_._rab_bi_/" target="_blank"
+            ><img src="003-instagram.png" width="30" height="30"
+          /></a>
+          <a href="https://www.twitter.com/rabbi6272/" target="_blank"
+            ><img src="001-twitter.png" width="30" height="30"
+          /></a>
+        </div>
+        <p>&copy;2023 by FAZLE RABBI</p>
+    </div>
+
+  
+</body>
+
+</html>
