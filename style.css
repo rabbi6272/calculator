@@ -158,18 +158,17 @@ input:hover {
         background: url(circle-scatter-haikei2.svg);
         background-size: cover;
         background-position: center;
-        height: 90vh;
+        height: 100vh;
     }
     h1 {
-        font-size: 3rem;
-       
-    }
-    .row1, .row2, .row3, .row4, .row5 {
-       margin: 1rem 0; 
+        font-size: 3.5rem;
     }
     .body {
-        width: 80vw;
-        height: 70vh;
+        width: 80%;
+        height: 70%;
+    }   
+    .row1, .row2, .row3, .row4, .row5 {
+       margin: 1rem 0; 
     }
     .result-box {
         height: 15vh;
