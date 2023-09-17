@@ -163,11 +163,11 @@ input:hover {
     }
     h1 {
         font-size: 2.5rem;
-         margin: 1rem 0 1.5rem 0;
+         margin: 1.5rem 0 2rem 0;
     }
     .body {
         width: 80vw;
-        height: 70vh;
+        height: 65vh;
     }   
     .row1, .row2, .row3, .row4, .row5 {
        margin: 1rem 0; 
@@ -176,7 +176,7 @@ input:hover {
         height: 15vh;
     }
     .input-box {
-        height: 55vh;
+        height: 50vh;
         padding-top: 20px;
     }
     .footer {
